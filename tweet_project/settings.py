@@ -56,7 +56,7 @@ ROOT_URLCONF = 'tweet_project.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [],  # Django will look in app's templates directory by default
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
